@@ -30,6 +30,7 @@ $id = optional_param('id', 0, PARAM_INT); // Course id.
 $categoryid = optional_param('category', 0, PARAM_INT); // Course category - can be changed in edit form.
 $returnto = optional_param('returnto', 0, PARAM_ALPHANUM); // Generic navigation return page switch.
 $returnurl = optional_param('returnurl', '', PARAM_LOCALURL); // A return URL. returnto must also be set to 'url'.
+/*Teste*/
 
 if ($returnto === 'url' && confirm_sesskey() && $returnurl) {
     // If returnto is 'url' then $returnurl may be used as the destination to return to after saving or cancelling.
